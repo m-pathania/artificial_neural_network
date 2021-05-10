@@ -1,0 +1,4 @@
+Input Neurons = 8
+Output Neurons = 1
+Training Patterns = 600
+Testing Patterns = 200
