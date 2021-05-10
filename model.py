@@ -1,3 +1,19 @@
+'''
+    ME674 Soft Computing in Engineering
+    Programming Assignment 1
+    Predicting Strength of High-Performance Concrete Using Artificial Neural Network
+
+    Name = Mayank Pathania
+    Roll No. = 204103314
+    Specialization = Machine Design
+
+    Artificial Neural Network with
+        Single hidden layer
+        Batch mode of training
+        Log sigmoid transfer functions
+'''
+
+
 import random
 import math
 
@@ -189,7 +205,7 @@ class ANN_BATCH:
         iteration = 0
         delV_momentum = [[0 for column in range(0, self.__neurons_hidden)] for row in range(0, self.__neurons_input + 1)]
         delW_momentum = [[0 for column in range(0, self.__neurons_output)] for row in range(0, self.__neurons_hidden + 1)]
-        E = [100000];
+        E = [100000]
         OO = []
         convergence = []
         while self.__mean_square_error(E) > self.__tolerance:
