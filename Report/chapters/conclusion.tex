@@ -1,0 +1,14 @@
+High-performance concrete is highly complex matrial and its strength depends on various parameters. 8 parameters were considered and different model parameters for the ANN Model were used to analyse which will give better results and if it is possible to use this technique to predict high-performance concrete.\\
+Following Conclusions can be drawn from the study:
+\begin{itemize}
+	\item This Method can be used to predict the strength of high-performance concrete also ANN model is simple to implement but it will require data and computation resources to train the model upto required accuracy.
+	\item Changing the parameters gave different convergence rates. Learning rate = 0.9 was used which is high value but it reduced the number of iterations significantly and did not produced any instability.
+	\item Reducing the tolerance value too much might not be helpful as MSE for training will decrease but this might be due to overfitting and during the testing MSE might be only of order $10^{-6}$. More data for training may be helpful but this will also increase the computational time/resources.
+\end{itemize}
+
+\section{Some Remarks Regarding Code}
+\begin{itemize}
+	\item Code is generalized. Input and output parameters can be changes from the file "input\_parameters.dat".
+	\item Model parameters can be changed by changing values in the file "model\_parameters.dat". There is only single hidden layer and cannot be changed but number of hidden neurons can be changed.
+	\item After training the model for reuse of model "save\_model\_data()" function can be used to save the data and "load\_model\_data()" function can be used to load the saved data.
+\end{itemize}

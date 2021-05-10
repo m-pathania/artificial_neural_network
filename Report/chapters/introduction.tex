@@ -1,0 +1,34 @@
+\section{Problem Definition}
+Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.\\
+The objective of the problem is to predict the strength of High-performance concrete based on some parameters.
+There are mainly 8 parameters Cement, Blast Furnace Slag, Fly Ash, Water, Super-plasticizer, Coarse Aggregate, Fine Aggregate and Age that effect the strength of the High-performance concrete. The mathematical modeling of such system is not easy and is highly non-linear. So a soft computing technique, Artificial Neural Network, is used to test if it is possible to predict the Strength using Artificial Neural Network and given parameters.
+
+\section{Attribute Information}
+The data is taken from UCI Machine Learning Repository.\\
+In table 1.1 the name for the component, type of data, Measurement units and description whether input or output variable is given. The order of the components is in table same as ordered in the data files.\\
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Name & Data Type & Measurement & Description\\
+\hline
+Cement & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Blast Furnace Slag & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Fly Ash & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Water & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Superplasticizer & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Coarse Aggregate & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Fine Aggregate & quantitative & kg in a m3 mixture & Input Variable\\
+\hline
+Age & quantitative & Day (1$-$365) & Input Variable\\
+\hline
+Concrete compressive strength & quantitative & MPa & Output Variable\\
+\hline
+\end{tabular}
+\captionof{table}{Information of components of data}
+\end{center}
