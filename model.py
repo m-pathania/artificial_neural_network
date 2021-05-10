@@ -100,7 +100,7 @@ class ANN_BATCH:
             file.writelines([str(x)+'\t' for x in self.__min_output])
             file.writelines('\n')
 
-    def load_model_data(self, W_file = "Weights_W.dat", V_file = "Weights_V.dat", I_file = "normalization_data_input.dat", O_file = "normalization_data_output.dat"):
+    def load_model_data(self, W_file = "Weights_W.dat", V_file = "Weights_V.dat", I_file = "normalization_data_input.dat", o_file = "normalization_data_output.dat"):
         with open(W_file, "r") as file:
             self.__W = []
             line = file.readline()
