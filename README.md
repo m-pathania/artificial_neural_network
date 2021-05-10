@@ -1,5 +1,8 @@
 # Predicting Strength of High-Performance Concrete Using Artificial Neural Network
-    single hidden layer neural network is implemented using log sigmoid transfer function.
+    Artificial Neural Network with
+        Single hidden layer
+        Batch mode of training
+        Log sigmoid transfer functions
 
 ## Transfer function:
     Input Layer:
