@@ -1,0 +1,4 @@
+Hidden Neurons = 20
+Learning Rate = 0.9
+Momentum Coefficient = 0.6
+Accuracy/Error = 5e-6
